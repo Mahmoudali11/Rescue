@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843031C72208CBD900857DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843031C62208CBD900857DB8 /* AppDelegate.swift */; };
+		843031C92208CBD900857DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843031C82208CBD900857DB8 /* ViewController.swift */; };
+		843031CC2208CBD900857DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843031CA2208CBD900857DB8 /* Main.storyboard */; };
+		843031CF2208CBD900857DB8 /* RescueMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843031CD2208CBD900857DB8 /* RescueMe.xcdatamodeld */; };
+		843031D12208CBD900857DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843031D02208CBD900857DB8 /* Assets.xcassets */; };
+		843031D42208CBD900857DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843031D22208CBD900857DB8 /* LaunchScreen.storyboard */; };
+		843031DC2208CCE500857DB8 /* GlossyHarshHoneycreeper-size_restricted.gif in Resources */ = {isa = PBXBuildFile; fileRef = 843031DB2208CCE500857DB8 /* GlossyHarshHoneycreeper-size_restricted.gif */; };
+		843031DF22098E0B00857DB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843031DE22098E0B00857DB8 /* MapKit.framework */; };
+		8457F3D322132C4700C27FA7 /* soundAndFlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3D222132C4700C27FA7 /* soundAndFlashViewController.swift */; };
+		8457F3D522132F9400C27FA7 /* firstAidsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3D422132F9400C27FA7 /* firstAidsTableViewController.swift */; };
+		8457F3D722132FE700C27FA7 /* firstAidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3D622132FE700C27FA7 /* firstAidTableViewCell.swift */; };
+		8457F3D92213F9E900C27FA7 /* firstAidCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3D82213F9E900C27FA7 /* firstAidCollectionViewController.swift */; };
+		8457F3DB2213FA3A00C27FA7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3DA2213FA3A00C27FA7 /* CollectionViewCell.swift */; };
+		8457F3DD2213FD0600C27FA7 /* firsAid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3DC2213FD0600C27FA7 /* firsAid.swift */; };
+		8457F3DF2214A3A800C27FA7 /* CollectionReusableViewForCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457F3DE2214A3A800C27FA7 /* CollectionReusableViewForCollectionHeader.swift */; };
+		84947B73220F47FC0013A376 /* newProclamation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84947B72220F47FC0013A376 /* newProclamation.swift */; };
+		84947B75220F624B0013A376 /* yourMedicalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84947B74220F624B0013A376 /* yourMedicalInfo.swift */; };
+		84947B77221054500013A376 /* emergencyNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84947B76221054500013A376 /* emergencyNumbersViewController.swift */; };
+		84947B792210552F0013A376 /* mycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84947B782210552F0013A376 /* mycell.swift */; };
+		84947B7B2210555A0013A376 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84947B7A2210555A0013A376 /* Numbers.swift */; };
+		84CDE3A5221075E200DA19A4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE3A4221075E200DA19A4 /* Home.swift */; };
+		84CDE3A72210772A00DA19A4 /* sosMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE3A62210772A00DA19A4 /* sosMsg.swift */; };
+		84CDE3A92210840C00DA19A4 /* launchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE3A82210840C00DA19A4 /* launchScreen.swift */; };
+		84CDE3AC2212C40500DA19A4 /* PatientEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE3AA2212C40500DA19A4 /* PatientEntity+CoreDataClass.swift */; };
+		84CDE3AD2212C40500DA19A4 /* PatientEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE3AB2212C40500DA19A4 /* PatientEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843031C32208CBD900857DB8 /* RescueMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescueMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843031C62208CBD900857DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843031C82208CBD900857DB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843031CB2208CBD900857DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843031CE2208CBD900857DB8 /* RescueMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RescueMe.xcdatamodel; sourceTree = "<group>"; };
+		843031D02208CBD900857DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843031D32208CBD900857DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843031D52208CBD900857DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843031DB2208CCE500857DB8 /* GlossyHarshHoneycreeper-size_restricted.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "GlossyHarshHoneycreeper-size_restricted.gif"; path = "../../../../.Trash/GlossyHarshHoneycreeper-size_restricted.gif"; sourceTree = "<group>"; };
+		843031DE22098E0B00857DB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8457F3D222132C4700C27FA7 /* soundAndFlashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundAndFlashViewController.swift; sourceTree = "<group>"; };
+		8457F3D422132F9400C27FA7 /* firstAidsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstAidsTableViewController.swift; sourceTree = "<group>"; };
+		8457F3D622132FE700C27FA7 /* firstAidTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstAidTableViewCell.swift; sourceTree = "<group>"; };
+		8457F3D82213F9E900C27FA7 /* firstAidCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstAidCollectionViewController.swift; sourceTree = "<group>"; };
+		8457F3DA2213FA3A00C27FA7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8457F3DC2213FD0600C27FA7 /* firsAid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firsAid.swift; sourceTree = "<group>"; };
+		8457F3DE2214A3A800C27FA7 /* CollectionReusableViewForCollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionReusableViewForCollectionHeader.swift; path = RescueMe/CollectionReusableViewForCollectionHeader.swift; sourceTree = "<group>"; };
+		84947B72220F47FC0013A376 /* newProclamation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = newProclamation.swift; path = RescueMe/newProclamation.swift; sourceTree = "<group>"; };
+		84947B74220F624B0013A376 /* yourMedicalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yourMedicalInfo.swift; path = RescueMe/yourMedicalInfo.swift; sourceTree = "<group>"; };
+		84947B76221054500013A376 /* emergencyNumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emergencyNumbersViewController.swift; sourceTree = "<group>"; };
+		84947B782210552F0013A376 /* mycell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mycell.swift; path = ../../../aa/Rescue/Rescue/mycell.swift; sourceTree = "<group>"; };
+		84947B7A2210555A0013A376 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numbers.swift; path = ../../../aa/Rescue/Rescue/Numbers.swift; sourceTree = "<group>"; };
+		84CDE3A4221075E200DA19A4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		84CDE3A62210772A00DA19A4 /* sosMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sosMsg.swift; path = RescueMe/sosMsg.swift; sourceTree = "<group>"; };
+		84CDE3A82210840C00DA19A4 /* launchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = launchScreen.swift; sourceTree = "<group>"; };
+		84CDE3AA2212C40500DA19A4 /* PatientEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PatientEntity+CoreDataClass.swift"; path = "RescueMe/PatientEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84CDE3AB2212C40500DA19A4 /* PatientEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PatientEntity+CoreDataProperties.swift"; path = "RescueMe/PatientEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843031C02208CBD800857DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843031DF22098E0B00857DB8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843031BA2208CBD800857DB8 = {
+			isa = PBXGroup;
+			children = (
+				8457F3DE2214A3A800C27FA7 /* CollectionReusableViewForCollectionHeader.swift */,
+				84CDE3AA2212C40500DA19A4 /* PatientEntity+CoreDataClass.swift */,
+				84CDE3AB2212C40500DA19A4 /* PatientEntity+CoreDataProperties.swift */,
+				84CDE3A62210772A00DA19A4 /* sosMsg.swift */,
+				8457F3D222132C4700C27FA7 /* soundAndFlashViewController.swift */,
+				84947B72220F47FC0013A376 /* newProclamation.swift */,
+				84947B74220F624B0013A376 /* yourMedicalInfo.swift */,
+				843031C52208CBD900857DB8 /* RescueMe */,
+				843031C42208CBD900857DB8 /* Products */,
+				843031DD22098E0B00857DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843031C42208CBD900857DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843031C32208CBD900857DB8 /* RescueMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843031C52208CBD900857DB8 /* RescueMe */ = {
+			isa = PBXGroup;
+			children = (
+				843031C62208CBD900857DB8 /* AppDelegate.swift */,
+				843031C82208CBD900857DB8 /* ViewController.swift */,
+				843031CA2208CBD900857DB8 /* Main.storyboard */,
+				8457F3D82213F9E900C27FA7 /* firstAidCollectionViewController.swift */,
+				8457F3DA2213FA3A00C27FA7 /* CollectionViewCell.swift */,
+				8457F3DC2213FD0600C27FA7 /* firsAid.swift */,
+				8457F3D422132F9400C27FA7 /* firstAidsTableViewController.swift */,
+				8457F3D622132FE700C27FA7 /* firstAidTableViewCell.swift */,
+				84947B76221054500013A376 /* emergencyNumbersViewController.swift */,
+				84947B7A2210555A0013A376 /* Numbers.swift */,
+				84CDE3A4221075E200DA19A4 /* Home.swift */,
+				84947B782210552F0013A376 /* mycell.swift */,
+				843031D02208CBD900857DB8 /* Assets.xcassets */,
+				843031D22208CBD900857DB8 /* LaunchScreen.storyboard */,
+				84CDE3A82210840C00DA19A4 /* launchScreen.swift */,
+				843031DB2208CCE500857DB8 /* GlossyHarshHoneycreeper-size_restricted.gif */,
+				843031D52208CBD900857DB8 /* Info.plist */,
+				843031CD2208CBD900857DB8 /* RescueMe.xcdatamodeld */,
+			);
+			path = RescueMe;
+			sourceTree = "<group>";
+		};
+		843031DD22098E0B00857DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843031DE22098E0B00857DB8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843031C22208CBD800857DB8 /* RescueMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843031D82208CBD900857DB8 /* Build configuration list for PBXNativeTarget "RescueMe" */;
+			buildPhases = (
+				843031BF2208CBD800857DB8 /* Sources */,
+				843031C02208CBD800857DB8 /* Frameworks */,
+				843031C12208CBD800857DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RescueMe;
+			productName = RescueMe;
+			productReference = 843031C32208CBD900857DB8 /* RescueMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843031BB2208CBD800857DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AAMM;
+				TargetAttributes = {
+					843031C22208CBD800857DB8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 843031BE2208CBD800857DB8 /* Build configuration list for PBXProject "RescueMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843031BA2208CBD800857DB8;
+			productRefGroup = 843031C42208CBD900857DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843031C22208CBD800857DB8 /* RescueMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843031C12208CBD800857DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843031D42208CBD900857DB8 /* LaunchScreen.storyboard in Resources */,
+				843031D12208CBD900857DB8 /* Assets.xcassets in Resources */,
+				843031CC2208CBD900857DB8 /* Main.storyboard in Resources */,
+				843031DC2208CCE500857DB8 /* GlossyHarshHoneycreeper-size_restricted.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843031BF2208CBD800857DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843031CF2208CBD900857DB8 /* RescueMe.xcdatamodeld in Sources */,
+				8457F3D522132F9400C27FA7 /* firstAidsTableViewController.swift in Sources */,
+				8457F3DB2213FA3A00C27FA7 /* CollectionViewCell.swift in Sources */,
+				8457F3D322132C4700C27FA7 /* soundAndFlashViewController.swift in Sources */,
+				84947B75220F624B0013A376 /* yourMedicalInfo.swift in Sources */,
+				843031C92208CBD900857DB8 /* ViewController.swift in Sources */,
+				84CDE3A92210840C00DA19A4 /* launchScreen.swift in Sources */,
+				84CDE3A72210772A00DA19A4 /* sosMsg.swift in Sources */,
+				8457F3DF2214A3A800C27FA7 /* CollectionReusableViewForCollectionHeader.swift in Sources */,
+				84947B77221054500013A376 /* emergencyNumbersViewController.swift in Sources */,
+				84CDE3A5221075E200DA19A4 /* Home.swift in Sources */,
+				84947B7B2210555A0013A376 /* Numbers.swift in Sources */,
+				8457F3D92213F9E900C27FA7 /* firstAidCollectionViewController.swift in Sources */,
+				84CDE3AD2212C40500DA19A4 /* PatientEntity+CoreDataProperties.swift in Sources */,
+				84947B792210552F0013A376 /* mycell.swift in Sources */,
+				843031C72208CBD900857DB8 /* AppDelegate.swift in Sources */,
+				84CDE3AC2212C40500DA19A4 /* PatientEntity+CoreDataClass.swift in Sources */,
+				84947B73220F47FC0013A376 /* newProclamation.swift in Sources */,
+				8457F3D722132FE700C27FA7 /* firstAidTableViewCell.swift in Sources */,
+				8457F3DD2213FD0600C27FA7 /* firsAid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843031CA2208CBD900857DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843031CB2208CBD900857DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843031D22208CBD900857DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843031D32208CBD900857DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843031D62208CBD900857DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843031D72208CBD900857DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843031D92208CBD900857DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RescueMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudAli.RescueMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		843031DA2208CBD900857DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RescueMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudAli.RescueMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843031BE2208CBD800857DB8 /* Build configuration list for PBXProject "RescueMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843031D62208CBD900857DB8 /* Debug */,
+				843031D72208CBD900857DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843031D82208CBD900857DB8 /* Build configuration list for PBXNativeTarget "RescueMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843031D92208CBD900857DB8 /* Debug */,
+				843031DA2208CBD900857DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		843031CD2208CBD900857DB8 /* RescueMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				843031CE2208CBD900857DB8 /* RescueMe.xcdatamodel */,
+			);
+			currentVersion = 843031CE2208CBD900857DB8 /* RescueMe.xcdatamodel */;
+			path = RescueMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 843031BB2208CBD800857DB8 /* Project object */;
+}
